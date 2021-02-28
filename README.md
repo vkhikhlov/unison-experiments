@@ -7,11 +7,10 @@ This repo contains some of my experiments with the [Unison](http://unisonweb.org
 From the Unison Codebase Manager (`ucm`) prompt:
 
 ```
-.> pull https://github.com/unisonweb/base:.releases._latest .base
-.> pull https://github.com/vkhikhlov/unison-experiments:.trunk .trunk
+.> pull https://github.com/vkhikhlov/unison-experiments
 ```
 
-This will install base libraries into your codebase and fetch my unison definitions under namespace .trunk.
+This will install all libraries under namespace external and fetch some unison definitions under namespace .trunk.
 
 To view what's available prompt:
 
@@ -40,3 +39,7 @@ To run main program prompt:
 .prs.experiments._mything> cd .trunk
 .trunk> push
 ```
+
+## Contributing
+
+This repository follows the conventions in [this document](https://www.unisonweb.org/docs/codebase-organization/) and I recommend reading that document, in particular [this section on creating and managing pull requests](https://www.unisonweb.org/docs/codebase-organization/#day-to-day-development-creating-and-merging-pull-requests).
